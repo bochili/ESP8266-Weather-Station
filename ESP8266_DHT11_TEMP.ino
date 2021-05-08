@@ -14,9 +14,9 @@
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
 
-char auth[] = "d4930aecbb0c";//换成自己的key
-char ssid[] = "卧室的Wifi";//换成自己的wifi
-char pswd[] = "20040131lbc";//换成自己的wifi密码
+char auth[] = "";//换成自己的key
+char ssid[] = "";//换成自己的wifi
+char pswd[] = "";//换成自己的wifi密码
 
 BlinkerNumber HUMI("num-hum");//新建组件
 BlinkerNumber TEMP("num-tem");
